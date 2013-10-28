@@ -3,7 +3,7 @@
 # This is a simple script that runs map reduce on CDH4
 
 Sys.setenv("HADOOP_HOME"="/usr/lib/hadoop-0.20-mapreduce")
-Sys.setenv("HADOOP_STREAMING"="/usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.3.0.jar")
+Sys.setenv("HADOOP_STREAMING"="/usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.4.0.jar")
 Sys.setenv("HADOOP_CMD"="/usr/lib/hadoop-0.20-mapreduce/bin/hadoop")
 
 Sys.setenv("HADOOP_CLASSPATH"="/etc/hadoop/conf:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/.//*:/usr/lib/hadoop-hdfs/./:/usr/lib/hadoop-hdfs/lib/*:/usr/lib/hadoop-hdfs/.//*:/usr/lib/hadoop-yarn/lib/*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-0.20-mapreduce/./:/usr/lib/hadoop-0.20-mapreduce/lib/*:/usr/lib/hadoop-0.20-mapreduce/.//*")
